@@ -47,21 +47,6 @@ p{
 }
 
 
-#landing_background_img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  object-fit: cover;
-  object-position: center;
-  filter: brightness(0.2);
-  padding: 0;
-  margin: 0;
-
-}
-
 .logo {
   height: 18em;
   padding: 1.5em;
@@ -179,7 +164,7 @@ button:focus-visible {
 }
 
 #section_1 {
-  background-image: url("./daniel-unsplash.jpg");
+  background-image: url("/daniel-unsplash.jpg");
   background-size: cover;
   padding: 0px 32px 124px 32px;
 }
